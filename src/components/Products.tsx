@@ -7,35 +7,35 @@ const products = [
     id: 1,
     title: 'Metais',
     description: 'Latão - Cobre - Bronze - Alumínio: Tarugos, redondo, sextavado, quadrado. Barras: chatas, redondas e eletrolíticas. Cantoneiras, chapas lisas e xadrez, bobinas, papel metal, arames, verguinhas para solda, tubos, buchas, latão naval, perfis, telhas e acessórios.',
-    image: 'https://images.unsplash.com/photo-1617038220319-276d3cfab638?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+    image: '/lovable-uploads/metais.png',
     delay: '0s'
   },
   {
     id: 2,
     title: 'Aço Inoxidável',
     description: '301 - 302 - 304 - 304l - 310 - 314 - 316 - 316l - 321 - 410 - 416 - 420: Chapas, barras, cantoneiras, tubos padrão Schedule, OD, tubos mecânicos e capilares. Arames mole e duro, materiais "cortados", plasma, perfis especiais, discos e anéis.',
-    image: 'https://images.unsplash.com/photo-1535813547-99c456a5d0a8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+    image: '/lovable-uploads/inox.jpeg',
     delay: '0.1s'
   },
   {
     id: 3,
     title: 'Aço Carbono e Construção Mecânica',
     description: '1010 - 1020 - 1045 - A36 - 4140 - 4340 - 8620 - 8640: Barras: redondas, quadradas, sextavadas, trefilados, mecânicos e laminados. Barras chatas, cantoneiras, telhas galvanizadas, trapezoidais e ondulados. Chapas lisa, galvanizadas e xadrez. Bobinas, perfis estruturais I e U, vigas I, U e H, Ferro T e trilhos. Tubos: Schedule, redondos, quadrados, eletrodutos e galvanizados. Materiais "cortados plasma", perfis especiais, discos e anéis.',
-    image: 'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+    image: '/lovable-uploads/tubos.png',
     delay: '0.2s'
   },
   {
     id: 4,
     title: 'Materiais Diversos',
     description: 'Zinco: Lingote. Chumbo: Lingotes, anodos (com antimônio e estanho), tubos e chapas (lençol). Níquel: Anodos. Diversos: Aço, prata, metal patente, teflon, nylon, PVC, policarbonatos, acrílicos e grafite.',
-    image: 'https://images.unsplash.com/photo-1557053506-91f5a5e424f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+    image: '/lovable-uploads/diversos.png',
     delay: '0.3s'
   },
   {
     id: 5,
     title: 'Itens Diversos',
     description: 'Parafusos, conexões: (Schedule 40/80, OD), eletrodos, disco de corte e soldas.',
-    image: 'https://images.unsplash.com/photo-1591696205602-2f950c417cb9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+    image: '/lovable-uploads/Parafusos.png',
     delay: '0.4s'
   }
 ];
