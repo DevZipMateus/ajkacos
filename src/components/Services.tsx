@@ -74,11 +74,11 @@ const Services = () => {
               <div className="bg-corporate-blue/10 p-4 rounded-lg inline-block mb-5">
                 <service.icon className="text-corporate-blue" size={28} />
               </div>
-              <div className="mb-5 overflow-hidden rounded-lg">
+              <div className="mb-5 overflow-hidden rounded-lg h-48">
                 <img 
                   src={service.image} 
                   alt={service.title} 
-                  className="w-full h-48 object-cover transition-transform duration-300 hover:scale-110"
+                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
                 />
               </div>
               <h3 className="text-xl font-semibold mb-3 text-gray-900">{service.title}</h3>

@@ -7,6 +7,7 @@ import AboutUs from '../components/AboutUs';
 import Products from '../components/Products';
 import Contact from '../components/Contact';
 import FloatingButton from '../components/FloatingButton';
+import Services from '../components/Services';
 
 const Index = () => {
   // Scroll to top on page load
@@ -21,6 +22,7 @@ const Index = () => {
       <main className="flex-grow">
         <Hero />
         <AboutUs />
+        <Services />
         <Products />
         <Contact />
       </main>
@@ -32,4 +34,3 @@ const Index = () => {
 };
 
 export default Index;
-
