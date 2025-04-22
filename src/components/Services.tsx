@@ -5,31 +5,43 @@ import { FileSpreadsheet, FileCheck, Building2, FileText, ArrowRight } from 'luc
 const services = [
   {
     id: 1,
-    title: 'Contabilidade',
+    title: 'Metais',
     description: 'Serviços especializados para atender às necessidades legais das empresas, com foco em resultados e eficiência.',
     icon: FileSpreadsheet,
+    image: '/lovable-uploads/metais.png',
     delay: '0s'
   },
   {
     id: 2,
-    title: 'Fiscal',
+    title: 'Aço Inoxidável',
     description: 'Assessoria completa para cumprimento de todas as obrigações fiscais, evitando problemas com o fisco.',
     icon: FileCheck,
+    image: '/lovable-uploads/inox.jpeg',
     delay: '0.1s'
   },
   {
     id: 3,
-    title: 'Abertura de Empresa',
+    title: 'Aço Carbono e Construção Mecânica',
     description: 'Orientação na estruturação societária adequada, visando economia tributária desde o primeiro dia.',
     icon: Building2,
+    image: '/lovable-uploads/tubos.png',
     delay: '0.2s'
   },
   {
     id: 4,
-    title: 'Societário',
+    title: 'Materiais Diversos',
     description: 'Serviços relacionados às questões legais junto a órgãos públicos e privados, mantendo sua empresa em dia.',
     icon: FileText,
+    image: '/lovable-uploads/diversos.png',
     delay: '0.3s'
+  },
+  {
+    id: 5,
+    title: 'Itens Diversos',
+    description: 'Serviços adicionais para cobrir uma ampla gama de necessidades empresariais.',
+    icon: FileText,
+    image: '/lovable-uploads/Parafusos.png',
+    delay: '0.4s'
   }
 ];
 
@@ -52,7 +64,7 @@ const Services = () => {
         </div>
         
         {/* Services Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service) => (
             <div 
               key={service.id} 
@@ -61,6 +73,13 @@ const Services = () => {
             >
               <div className="bg-corporate-blue/10 p-4 rounded-lg inline-block mb-5">
                 <service.icon className="text-corporate-blue" size={28} />
+              </div>
+              <div className="mb-5 overflow-hidden rounded-lg">
+                <img 
+                  src={service.image} 
+                  alt={service.title} 
+                  className="w-full h-48 object-cover transition-transform duration-300 hover:scale-110"
+                />
               </div>
               <h3 className="text-xl font-semibold mb-3 text-gray-900">{service.title}</h3>
               <p className="text-gray-600">{service.description}</p>
