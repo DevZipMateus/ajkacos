@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
@@ -17,11 +18,11 @@
     --popover-foreground: 0 0% 10%;
 
     /* Primary: Red from logo */
-    --primary: 0 75% 55%;  // e72e2c in HSL
+    --primary: 0 75% 55%; /* e72e2c in HSL */
     --primary-foreground: 0 0% 100%;
 
     /* Secondary: Black from logo */
-    --secondary: 0 0% 0%;  // #000000 in HSL
+    --secondary: 0 0% 0%; /* #000000 in HSL */
     --secondary-foreground: 0 0% 100%;
 
     --muted: 0 0% 95%;
