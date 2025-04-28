@@ -37,12 +37,12 @@ const AboutUs = () => {
             <p className="text-gray-600 mb-6 animate-fade-in" style={{
             animationDelay: '0.2s'
           }}>
-              Atualmente no <b>mercado</b>, oferecendo produtos de alta qualidade, provenientes das empresas referências no mercado para garantir segurança dos projetos de nossos clientes. Além de vender mercadorias das mais diversas, oferecemos também serviços de corte em chapas de aço.
+              Atualmente no mercado, oferecendo produtos de alta qualidade, provenientes das empresas referências no mercado para garantir segurança dos projetos de nossos clientes. Além de vender mercadorias das mais diversas, oferecemos também serviços de corte em chapas de aço.
             </p>
             <p className="text-gray-600 mb-6 animate-fade-in" style={{
             animationDelay: '0.3s'
           }}>
-              Enfrentando os desafios do crescente mercado de aço inox e metais, estamos focados em atualizações das melhores práticas de trabalho e tecnologia, transformando-se em uma empresa ágil e produtiva para atender às necessidades de seus clientes, parceiros e fornecedores.
+              Enfrentando os desafios do crescente mercado de <b>aço inox e metais</b>, estamos focados em atualizações das melhores práticas de trabalho e tecnologia, transformando-se em uma empresa ágil e produtiva para atender às necessidades de seus clientes, parceiros e fornecedores.
             </p>
             <p className="text-gray-600 mb-8 animate-fade-in" style={{
             animationDelay: '0.4s'
