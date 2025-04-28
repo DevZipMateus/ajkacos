@@ -1,5 +1,7 @@
+
 import React from 'react';
 import { Check, ArrowRight } from 'lucide-react';
+
 const AboutUs = () => {
   return <section id="sobre" className="section bg-gray-50">
       <div className="container-custom">
@@ -30,17 +32,22 @@ const AboutUs = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 animate-fade-in" style={{
             animationDelay: '0.1s'
           }}>
-              Excelência em aços e metais para sua necessidade
+              AJK Aços e Metais
             </h2>
             <p className="text-gray-600 mb-6 animate-fade-in" style={{
             animationDelay: '0.2s'
           }}>
-              Na AJK Aços & Metais trabalhamos com matéria prima em aços e metais para atender às mais diversas necessidades e aplicações.
+              Atualmente no mercado, há 35 anos no mercado oferece produtos de alta qualidade, provenientes das empresas referências no mercado para garantir segurança dos projetos de nossos clientes. Além de vender mercadorias das mais diversas, oferecemos também serviços de corte em chapas de aço.
             </p>
-            <p className="text-gray-600 mb-8 animate-fade-in" style={{
+            <p className="text-gray-600 mb-6 animate-fade-in" style={{
             animationDelay: '0.3s'
           }}>
-              Nosso comprometimento com a qualidade e a satisfação do cliente nos permite oferecer os melhores produtos do mercado, com preços competitivos e atendimento personalizado.
+              Enfrentando os desafios do crescente mercado de aço inox e metais, estamos focados em atualizações das melhores práticas de trabalho e tecnologia, transformando-se em uma empresa ágil e produtiva para atender às necessidades de seus clientes, parceiros e fornecedores.
+            </p>
+            <p className="text-gray-600 mb-8 animate-fade-in" style={{
+            animationDelay: '0.4s'
+          }}>
+              A AJK Aços inicia uma fase de novas conquistas, exercendo, com responsabilidade, os compromissos de uma organização preocupada com o futuro e com a qualidade dos produtos e serviços entregues a seus clientes, mantendo-se sempre à frente para servi-lo melhor.
             </p>
             
             {/* Key Points */}
@@ -93,4 +100,5 @@ const AboutUs = () => {
       </div>
     </section>;
 };
+
 export default AboutUs;
