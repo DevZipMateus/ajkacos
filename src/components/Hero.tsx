@@ -8,8 +8,8 @@ const Hero = () => {
   const isMobile = useIsMobile();
   
   return (
-    <section className="pt-28 pb-16 md:pt-36 md:pb-24 bg-gradient-to-br from-ajk-black to-neutral-800 relative overflow-hidden">
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1454329001920-70b4a3de67dc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')] bg-cover bg-center opacity-20"></div>
+    <section className="pt-20 pb-16 md:pt-36 md:pb-24 bg-gradient-to-br from-ajk-black to-neutral-800 relative overflow-hidden">
+      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1454329001920-70b4a3de67dc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')] bg-cover bg-center opacity-20 min-h-[100%]"></div>
       
       {/* Decorative elements */}
       <div className="absolute top-40 right-10 w-72 h-72 bg-ajk-red/20 rounded-full blur-3xl"></div>
@@ -20,34 +20,34 @@ const Hero = () => {
           <img 
             src="/lovable-uploads/8902c672-6cb6-4584-9b25-30e0b71c9029.png"
             alt="AJK Aços & Metais Logo" 
-            className="h-16 md:h-20 mx-auto mb-8 animate-fade-in"
+            className="h-12 md:h-20 mx-auto mb-6 md:mb-8 animate-fade-in"
           />
           
-          <h1 className={`${isMobile ? 'text-3xl' : 'text-4xl md:text-5xl lg:text-6xl'} font-bold text-white leading-tight mb-6 animate-fade-in`} style={{
+          <h1 className={`${isMobile ? 'text-2xl' : 'text-4xl md:text-5xl lg:text-6xl'} font-bold text-white leading-tight mb-4 md:mb-6 animate-fade-in`} style={{
             animationDelay: '0.1s'
           }}>
             Qualidade em Aços e Metais para o seu Projeto
           </h1>
           
-          <p className="text-lg text-gray-300 mb-10 animate-fade-in" style={{
+          <p className="text-base md:text-lg text-gray-300 mb-6 md:mb-10 animate-fade-in" style={{
             animationDelay: '0.2s'
           }}>
             Trabalhamos com matéria prima em aços e metais para atender às necessidades da sua empresa.
           </p>
           
-          <div className="flex flex-col sm:flex-row justify-center gap-4 animate-fade-in" style={{
+          <div className="flex flex-col sm:flex-row justify-center gap-3 md:gap-4 animate-fade-in" style={{
             animationDelay: '0.3s'
           }}>
-            <a href="https://wa.me/5521973656359" target="_blank" rel="noopener noreferrer" className="btn-primary flex items-center gap-2">
+            <a href="https://wa.me/5521973656359" target="_blank" rel="noopener noreferrer" className="btn-primary flex items-center gap-2 text-sm md:text-base">
               <img 
                 src={whatsappImg}
                 alt="WhatsApp"
-                className="w-5 h-5 object-contain"
+                className="w-4 h-4 md:w-5 md:h-5 object-contain"
                 loading="lazy"
               />
               <span>Solicitar Orçamento</span>
             </a>
-            <a href="#produtos" className="btn-secondary">
+            <a href="#produtos" className="btn-secondary text-sm md:text-base">
               Ver Produtos
             </a>
           </div>
@@ -66,4 +66,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
