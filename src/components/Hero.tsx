@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { useIsMobile } from '../hooks/use-mobile';
 
@@ -8,7 +7,7 @@ const Hero = () => {
   const isMobile = useIsMobile();
   
   return (
-    <section className="pt-20 pb-16 md:pt-36 md:pb-24 bg-gradient-to-br from-ajk-black to-neutral-800 relative overflow-hidden">
+    <section className="pt-24 pb-16 md:pt-36 md:pb-24 bg-gradient-to-br from-ajk-black to-neutral-800 relative overflow-hidden">
       <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1454329001920-70b4a3de67dc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')] bg-cover bg-center opacity-20 min-h-[100%]"></div>
       
       {/* Decorative elements */}
